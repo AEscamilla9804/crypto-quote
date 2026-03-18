@@ -56,9 +56,9 @@ export default function Navbar() {
 
           <Link
             className="hover:text-blue-500"
-            to="/stocks"
+            to="/portfolio"
           >
-              Stocks
+              Portfolio
           </Link>
 
           <Link

@@ -13,7 +13,7 @@ function App() {
         <Route element={ <MainLayout /> }>
           <Route path="/" element={ <Home /> } index />
           <Route path="/coin/:id" element={<SearchResultPage />} />
-          <Route path="/stocks" element={ <Stocks /> } />
+          <Route path="/portfolio" element={ <Stocks /> } />
           <Route path="/funds" element={ <Funds /> } />
         </Route>
       </Routes>
