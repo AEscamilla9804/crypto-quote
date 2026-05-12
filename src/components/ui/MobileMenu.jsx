@@ -51,10 +51,10 @@ export default function MobileMenu() {
 
                 <Link
                     className='block'
-                    to="/stocks"
+                    to="/portfolio"
                     onClick={() => setIsOpen(false)}
                 >
-                    Stocks
+                    Portfolio
                 </Link>
 
                 <Link
